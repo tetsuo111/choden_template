@@ -1,0 +1,15 @@
+jQuery(function($) {
+	/** モーダル ========================================================*/
+	// モーダル表示
+	$('.button-modal, .modal-img').click(function() {
+		var target = $(this).data('target');
+		$(target).addClass('is-active');
+	});
+	// モーダル閉じる
+	$('.modal .delete').click(function() {
+		$(this).closest('.modal').removeClass('is-active');
+	});
+	$('.button, .modal-background, .modal-close').click(function() {
+		$(this).closest('.modal').removeClass('is-active');
+	});
+});

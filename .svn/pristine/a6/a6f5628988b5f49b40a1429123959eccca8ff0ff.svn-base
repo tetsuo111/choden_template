@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<meta name="format-detection" content="telephone=no,email=no,address=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		<title>葬儀一覧｜コスモスターズ</title>
+		<link rel="stylesheet" type="text/css" href="css/bulma.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.slim.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<a href="http://www.cosmostars.co.jp/index.html" class="header-link"></a>
+			</header>
+			<section class="main">
+				<div class="hero main-title-bg">
+					<div class="hero-body main-title-body">
+						<h1 class="has-text-centered main-title-mf">葬儀一覧</h1>
+					</div>
+				</div>
+				<div class="hall-info">
+					<h2 class="subtitle sub-title">ホール情報</h2>
+					<div class="columns is-multiline is-mobile">
+						<div class="column is-half-desktop is-full-mobile has-text-centered">
+							<img src="img/yasumori.jpg" class="hall-info-image">
+						</div>
+						<div class="column is-half-desktop is-full-mobile hall-info-detail">
+							<div class="columns">
+								<div class="column is-4 hall-info-detail-header">
+									<p>ホール名：</p>
+								</div>
+								<div class="column is-8 hall-info-detail-data">
+									<p>池袋葬儀ホール</p>
+								</div>
+							</div>
+							<div class="columns">
+								<div class="column is-4 hall-info-detail-header">
+									<p>住所：</p>
+								</div>
+								<div class="column is-8 hall-info-detail-data">
+									<p>長野県 長野市差出南 1-9-24</p>
+								</div>
+							</div>
+							<div class="columns">
+								<div class="column is-4 hall-info-detail-header">
+									<p>電話番号：</p>
+								</div>
+								<div class="column is-8 hall-info-detail-data">
+									<p>026-291-3030</p>
+								</div>
+							</div>
+							<div class="columns">
+								<div class="column is-4 hall-info-detail-header">
+									<p>ファックス：</p>
+								</div>
+								<div class="column is-8 hall-info-detail-data">
+									<p>026-291-3020</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="columns is-full-mobile">
+					<div class="column is-4 hall-list">
+						<h2 class="subtitle sub-title">ホールリスト</h2>
+						<nav class="panel">
+							<a class="panel-block hall-list-pb" href="#">すべてのホール</a>
+							<a class="panel-block hall-list-pb" href="#">すべてのホール</a>
+							<a class="panel-block hall-list-pb" href="#">すべてのホール</a>
+							<a class="panel-block hall-list-pb" href="#">すべてのホール</a>
+						</nav>
+					</div>
+					<div class="column is-8 funeral-list">
+						<h2 class="subtitle sub-title">葬儀リスト</h2>
+						<div>現在、弔電を受付している葬儀はございません。</div>
+						<div class="">
+							<div class="">
+								<span>2016年10月31日</span>の葬儀
+							</div>
+							<div class="columns is-full-mobile funeral-list-block">
+								<div class="column is-8">
+									<p class="funeral-list-text">田中太郎様の葬儀</p>
+									<p class="funeral-list-text">葬儀開始時刻:12:00</p>
+									<p class="funeral-list-text">ホール:ハクゼンホール安茂里会館</p>
+									<p class="funeral-list-text">喪主名:田中花子</p>
+								</div>
+								<div class="column is-4">
+									<button class="button">ボタン</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="has-text-centered">
+					<p class="footer-title">株式会社 コスモスターズ</p>
+					<p class="footer-address">〒170-0013  東京都豊島区東池袋2-39-2</p>
+					<p class="footer-tel">TEL03-3982-6226</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

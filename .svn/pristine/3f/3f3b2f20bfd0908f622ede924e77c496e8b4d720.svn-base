@@ -1,0 +1,219 @@
+/****************************
+共通
+背景色、文字サイズ、文字色等、画面幅等
+*****************************/
+.main{
+	margin-top: 20px;
+	/*footerを底につける*/
+	min-height: calc(100vh - 100px);
+}
+@media screen and (max-width: 768px){
+	.main{
+		margin-top: 10px;
+	}
+}
+
+/*文字サイズ*/
+@media screen and (min-width: 769px){
+	.main-title-mf{
+		font-size: 1.75rem;
+	}
+	.sub-title,
+	.footer-title{
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.main-title-mf,
+	.footer-title{
+		font-size: 1.25rem;
+	}
+	.footer-address,
+	.footer-tel,
+	.hall-info-detail-header,
+	.hall-info-detail-data{
+		font-size: 0.5rem;
+	}
+}
+
+/*共通背景*/
+/*青*/
+.main-title-bg,
+.footer{
+	background: #08d;
+}
+
+/*グレー*/
+.hall-info-detail-header{
+	background: #eee;
+}
+
+/*共通文字色　白*/
+.main-title-mf,
+.footer-title,
+.footer-address,
+.footer-tel{
+	color: white;
+}
+
+/*bulma　上書き*/
+/*画面幅を博善社ホームページに合わせるため変更*/
+@media screen and (max-width: 768px){
+	.container{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.container {
+		width: 450px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 670px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 870px;
+	}
+}
+
+/****************************
+共通tips
+*****************************/
+/*サブタイトル*/
+.sub-title{
+	border-left: 10px solid #0084d4;
+	height     : 50px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+@media screen and (max-width: 768px){
+	.sub-title{
+		height: 30px;
+		padding-top: 0;
+		padding-left: 10px;
+	}
+}
+
+/****************************
+ヘッダー
+*****************************/
+.header,
+.header-link{
+	height: 80px;
+}
+
+.header{
+	background-image : url(../img/hakuzennsya_header.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*TODO 高さ調整*/
+.header-link{
+	display: block;
+}
+
+@media screen and (min-width: 769px){}
+@media screen and (max-width: 768px){
+	.header,
+	.header-link{
+		height: 50px;
+	}
+
+}
+
+/****************************
+フッター
+*****************************/
+
+.footer{
+	/*bulmaの上書き*/
+	padding: 0;
+
+	/*footerを底に位置するため、高さ指定*/
+	height: 100px;
+}
+/*bulmaの上書き*/
+.footer-title{
+	margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 769px){}
+@media screen and (max-width: 768px){
+	.footer{
+		/*bulmaの上書き*/
+		padding: 0.2rem;
+		height: 100px;
+	}
+
+	.footer-title{
+		margin-bottom: 0.25rem;
+	}
+}
+
+/****************************
+メインタイトル
+*****************************/
+/*bulma上書き hero-body上書き*/
+.main-title-body{
+	padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px){
+	/*bulma上書き hero-body上書き*/
+	.main-title-body{
+		padding: 0.125rem;
+	}
+}
+
+/****************************
+index.html
+*****************************/
+
+/*************/
+/*ホール情報*/
+/***********/
+.hall-info{
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+/*ホール画像*/
+.hall-info-image{}
+
+/*詳細情報*/
+.hall-info-detail-header{
+	border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 768px){
+	.column .hall-info-detail-header,
+	.column .hall-info-detail-data{
+		padding-top   : 0;
+		padding-bottom: 0;
+		margin-left   : 15px;
+		margin-right  : 15px;
+	}
+}
+/*************/
+/*ホールリスト*/
+/***********/
+
+
+/*************/
+/*葬儀一覧*/
+/***********/
+
+
+/****************************
+item.html
+*****************************/

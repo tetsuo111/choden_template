@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<meta name="format-detection" content="telephone=no,email=no,address=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		<title>葬儀一覧｜コスモスターズ</title>
+		<link rel="stylesheet" type="text/css" href="css/bulma.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.slim.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<a href="http://www.cosmostars.co.jp/index.html" class="header-link"></a>
+			</header>
+			<section class="main">
+				<div class="main-title">
+					<h1 class="main-title-main-font">田中太郎様のお葬儀</h1>
+					<p>
+						<span class="main-title-sub-text">葬儀時間:<span>17:00</span>開始　</span>
+						<span class="main-title-sub-text">ホール名:<span>ハクゼンホール安茂里会館</span></span>
+					</p>
+				</div>
+				<div class="">
+					<h2 class="sub-title">商品一覧</h2>
+					<div class="columns">
+						<div class="column is-full-mobile is-4-desktop">
+							<div class="card">
+								<div class="card-image">
+									<figure class="image">
+										<img alt="" src="img/tomurai_main.jpg">
+									</figure>
+								</div>
+								<div class="card-content">
+									<div class="content">
+										<table class="table">
+											<tbody>
+												<tr>
+													<th>商品名</th>
+													<th>価格(税込み)</th>
+												</tr>
+												<tr>
+													<td>遥</td>
+													<td>2200円</td>
+												</tr>
+											</tbody>
+										</table>
+										<p class="card-footer-item"><a class="button">詳細を見る</a></p>
+									</div>
+								</div>
+								<div class="card-footer">
+									<form action="index.html">
+										<div class="field">
+											<div class="control">
+												<button class="button">送る</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="has-text-centered">
+					<p class="footer-company">株式会社 コスモスターズ</p>
+					<p class="footer-address">〒170-0013  東京都豊島区東池袋2-39-2</p>
+					<p class="footer-tel">TEL03-3982-6226</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
